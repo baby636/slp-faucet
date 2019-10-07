@@ -25,6 +25,7 @@ PORT=______
 
 ```
 npm install
+tsc
 node server.js
 ```
 
