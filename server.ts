@@ -38,15 +38,15 @@ app.get('/', function (req, res) {
 
 app.post('/', async function (req, res) {
 	
+	// First, set the user ip
+	let userIP = req.ip;
+
 	// Grab and print date/time and IP of user upon form submission/post
 	let submitDate = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '');
 
-	console.log('IP', req.ip);
+	console.log('IP', userIP);
 	console.log('DATE', submitDate);
 
-
-	// first check if IP has submitted in the last 12 hours and return an error if so
-	let userIP = req.ip;
 
 	// Next see if that user has already submitted within the last 24 hours
 	try {
