@@ -29,6 +29,25 @@ tsc
 node server.js
 ```
 
+### *** Note - there has been recent issues running with the bitbox-sdk module. As a workaround, go into the below two files and change one line in each.
+
+In file - 
+node_modules/bitbox-sdk/lib/Crypto.ts
+
+Change line 1 - 
+import * as randomBytes from "randombytes" 
+To - 
+import randomBytes from "randombytes"
+
+In file - 
+node_modules/bitbox-sdk/lib/Mnemonic.ts
+
+Change line 5 - 
+import * as randomBytes from "randombytes"
+To -
+import randomBytes from "randombytes"
+
+
 ## Build Source
 
 If you want to modify the source (i.e., the `*.ts` files), you will need to rebuild using `tsc` before running the app.  TypeScript needs to be installed globally via `npm install -g typescript`.
