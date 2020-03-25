@@ -35,16 +35,23 @@ In file -
 node_modules/bitbox-sdk/lib/Crypto.ts
 
 Change line 1 - 
+
 import * as randomBytes from "randombytes" 
+
 To - 
+
 import randomBytes from "randombytes"
+
 
 In file - 
 node_modules/bitbox-sdk/lib/Mnemonic.ts
 
 Change line 5 - 
+
 import * as randomBytes from "randombytes"
+
 To -
+
 import randomBytes from "randombytes"
 
 
