@@ -1,6 +1,8 @@
-# SLP Faucet Example
+# SOUR SLP Faucet
 
 This project is an example of an SLP faucet website.  The site allows users to enter their SLP address and the server-side process will send the user's address the token quantity specified within the environment variables (i.e., per `TOKENQTY` and `TOKENID`).  
+
+SOUR SLP Faucet is live at: [http://sour-faucet.ddns.net](http://sour-faucet.ddns.net)
 
 ## Faucet Capacity
 
