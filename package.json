@@ -19,11 +19,11 @@
   "homepage": "https://github.com/simpleledger/simple-slp-faucet#readme",
   "dependencies": {
     "bitbox-sdk": "8.1.0",
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.20.3",
     "cookie-parser": "^1.4.4",
     "dotenv": "^6.2.0",
     "ejs": "^2.6.1",
-    "express": "^4.15.3",
+    "express": "^4.20.0",
     "express-session": "^1.17.0",
     "request": "^2.81.0",
     "slpjs": "^0.17.0",
